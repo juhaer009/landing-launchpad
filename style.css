@@ -41,7 +41,7 @@
       padding: 10px 20px;
       font-size: 14px;
       border-radius: 8px;
-      cursor: pointer;
+      /* cursor: pointer; */
       margin-right: 50px;
     }
 
@@ -61,7 +61,7 @@
       font-size: 14px;
       border: none;
       border-radius: 10px;
-      cursor: pointer;
+      /* cursor: pointer; */
     }
 
 
@@ -307,4 +307,12 @@
     a {
         text-decoration: none;
         color: #8987A1;  
+    }
+
+    /* 8. Button Animation */
+    .btn-anime:hover {
+       cursor: pointer; 
+       background-color : yellow;
+       color: black;
+       padding: 15px 30px;
     }
